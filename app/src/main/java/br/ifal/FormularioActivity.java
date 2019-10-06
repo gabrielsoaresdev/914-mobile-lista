@@ -28,7 +28,7 @@ public class FormularioActivity extends AppCompatActivity {
         if(intent.hasExtra("contato")) {
             contato =
                     (Contato) intent.getSerializableExtra("contato");
-            editTextEndereco.setText(contato.getNome());
+            editTextNome.setText(contato.getNome());
             editTextTelefone.setText(contato.getFone());
             editTextEndereco.setText(contato.getEndereco());
         }

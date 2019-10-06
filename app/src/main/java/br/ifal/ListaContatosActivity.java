@@ -68,6 +68,7 @@ public class ListaContatosActivity extends AppCompatActivity {
             case R.id.menu_apagar:
                 ContatoDAO dao = new ContatoDAO(this);
                 dao.remove(contato);
+                adapter.remove(contato);
                 break;
             case R.id.activity_lista_menu_sms:
                 i = new Intent(Intent.ACTION_VIEW);
