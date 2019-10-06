@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_editar"
+        android:title="Editar"
+        />
+
+    <item
+        android:id="@+id/menu_apagar"
+        android:title="Apagar"
+        />
+
+    <item
+        android:id="@+id/activity_lista_menu_ligar"
+        android:title="Ligar" />
+
+    <item
+        android:id="@+id/activity_lista_menu_sms"
+        android:title="Enviar sms" />
+
+    <item
+        android:id="@+id/activity_lista_menu_visitar_site"
+        android:title="Acessar site" />
+
+    <item
+        android:id="@+id/activity_lista_menu_end"
+        android:title="Ver Endereco" />
+
+
+</menu>
